@@ -1,0 +1,56 @@
+body {
+    background-color: #D4ECF8;
+} 
+#contenedor {
+    background-color: #fff;
+    width: 900px;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 5px #000;
+    -moz-box-shadow: 1px 1px 5px #000;
+    -webkit-box-shadow: 1px 1px 5px #000;
+}
+header {
+    text-align: center;
+}
+nav ul{
+    width: 450px;
+    margin: 0px auto 0px auto;
+}
+nav li{
+    float: left;
+    width: 120px;
+    height: 20px;
+    list-style: none;
+    border: solid 1px #999;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    -moz-border-radius: 5px 15px 5px 5px;
+    -webkit-border-radius: 5px 15px 5px 5px;
+    text-align: center;
+}
+nav .google_mas {
+    background-image: url(../images/google_mas_icono.jpg);
+}
+nav .facebook {
+    background-image: url(../images/facebook_icono.jpg);
+}
+nav .twitter {
+    background-image: url(../images/twitter_icono.jpg);
+}
+nav a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+section .imagen_logo {
+    float: left;
+    width: auto;
+}
+section .descipcion p {
+    text-align: justify;
+}
+.clear {
+    clear: both;
+}
